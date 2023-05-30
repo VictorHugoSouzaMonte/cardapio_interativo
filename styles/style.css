@@ -43,31 +43,83 @@ body {
 
 .principal {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0% 5% 0%;
+    gap: 100px;
+}
+
+.principal__dispocisao {
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    padding: 5% 5% 5% 5%;
+    gap: 10%;
 }
 
 .principal__fotos {
-    width: 350px;
-    height: 500px;
-    border-radius: 2.5%;
-    image-rendering: optimizeQuality;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 5%;
+}
+
+.principal__fotos :hover {
+    width: 21rem;
+    height: 31rem;
+}
+
+
+.principal__descricao {
+    font-family: 'Prompt', sans-serif;
 }
 
 .rodape {
     padding: 100px;
     background-color: var(--cor--secundaria);
     color: var(--cor--terciaria);
+    font-family: 'Prompt', sans-serif;
 }
 
 .rodape__pagamento {
     display: flex;
-    justify-content: end;
+    flex-direction: column;
     align-items: end;
-    font-family: 'Prompt', sans-serif;
+    text-align: justify;
+}
+
+.rodape__pagamento__dispocisao {
+    display: flex;
+    gap: 15px;
 }
 
 .rodape__pagamento__fotos {
-    width: 50px;
-    height: 50px;
+    width: 3rem;
+    height: 3rem;
+}
+
+/* página de login */
+
+.principal__cadastro {
+    padding: 5% 0% 10% 0%;
+}
+
+.principal__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-size: larger;
+
+}
+
+.principal__cadastro__input {
+    width: 15rem;
+    height: 1.5rem;
+}
+
+.principal__cadastro__botao {
+    width: 15rem;
+    height: 2rem;
+    font-family: 'Prompt', sans-serif;
+    font-size: medium;
 }

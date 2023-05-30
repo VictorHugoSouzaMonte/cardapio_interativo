@@ -24,24 +24,58 @@
             <a class="cabecalho__menu__link" href="sobremesas.html">Sobremesas</a>
         </nav>
     </header>
+    
     <main class="principal">
-        <a href="massas.html"><img class="principal__fotos" src="assets/macarrão.jpg" alt="Um prato com macarrão"></a>
-        <a href="bebidas.html"><img class="principal__fotos" src="assets/wine.jpg" alt="Uma taça com vinho"></a>
-        <a href="sobremesas.html"><img class="principal__fotos" src="assets/sorvete.jpg" alt="Um copo com Fsorvete"></a>
+        <div class="principal__dispocisao">
+            <div class="principal__fotos">
+                <a href="massas.html"><img class="principal__fotos" src="assets/macarrão.jpg"
+                        alt="Um prato com macarrão" title="massas"></a>
+                <span class="principal__descricao">Massas</span>
+            </div>
+            <div class="principal__fotos">
+                <a href="steaks.html"><img class="principal__fotos" src="assets/carne_grelhada.jpg"
+                        alt="Uma peça de carne carne_grelhada" title="steaks"></a><span
+                    class="principal__descricao">Steaks</span>
+            </div>
+            <div class="principal__fotos">
+                <a href="acompanhamentos.html"><img class="principal__fotos" src="assets/batata.jpg"
+                        alt="Um prato com batata frita" title="acompanhamentos"></a><span
+                    class="principal__descricao">Acompanhamentos</span>
+            </div>
+        </div>
+        <div class="principal__dispocisao">
+            <div class="principal__fotos">
+                <a href="sobremesas.html"><img class="principal__fotos" src="assets/sorvete.jpg"
+                        alt="Um copo com sorvete" title="sobremesas"></a><span
+                    class="principal__descricao">Sobremesas</span>
+            </div>
+            <div class="principal__fotos">
+                <a href="burgers.html"><img class="principal__fotos" src="assets/burger.jpg" alt="Um hamburguer"
+                        title="burgers"></a><span class="principal__descricao">Burgers</span>
+            </div>
+            <div class="principal__fotos">
+                <a href="bebidas.html"><img class="principal__fotos" src="assets/wine.jpg" alt="Uma taça de vinho"
+                        title="bebidas"></a><span class="principal__descricao">Bebidas</span>
+            </div>
+        </div>
     </main>
+
     <footer class="rodape">
-        <table class="rodape__pagamento">
-            <tr>
-                <td><img class="rodape__pagamento__fotos" src="assets/visa.svg" alt="logo da visa"></td>
-                <td><img class="rodape__pagamento__fotos" src="assets/master_card.svg" alt=""></td>
-                <td><img class="rodape__pagamento__fotos" src="assets/cartao-elo.svg" alt=""></td>
-            </tr>
-            <tr>
-                <td><img class="rodape__pagamento__fotos" src="assets/amex.svg" alt=""></td>
-                <td><img class="rodape__pagamento__fotos" src="assets/hipercard.svg" alt=""></td>
-                <td><img class="rodape__pagamento__fotos" src="assets/boleto-logo.svg" alt=""></td>
-            </tr>
-        </table>
+        <div class="rodape__pagamento">
+            <div>
+                <span>FORMAS DE PAGAMENTO</span>
+            </div>
+            <div class="rodape__pagamento__dispocisao">
+                <img class="rodape__pagamento__fotos" src="assets/visa.svg" alt="logo da visa">
+                <img class="rodape__pagamento__fotos" src="assets/master_card.svg" alt="logo da master card">
+                <img class="rodape__pagamento__fotos" src="assets/cartao-elo.svg" alt="logo da elo">
+            </div>
+            <div class="rodape__pagamento__dispocisao">
+                <img class="rodape__pagamento__fotos" src="assets/amex.svg" alt="logo da amex">
+                <img class="rodape__pagamento__fotos" src="assets/hipercard.svg" alt="logo da hipercard">
+                <img class="rodape__pagamento__fotos" src="assets/boleto-logo.svg" alt="logo de boleto">
+            </div>
+        </div>
     </footer>
 </body>
 

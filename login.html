@@ -24,9 +24,15 @@
             <a class="cabecalho__menu__link" href="sobremesas.html">Sobremesas</a>
         </nav>
     </header>
-    <main>
-        <h1 style="margin: 100vh;">Login</h1>
-        
+    <main class="principal__cadastro">
+        <form class="principal__form">
+            <label for="nome">Nome </label><input class="principal__cadastro__input" type="text" name="nome">
+            <label for="email">E-mail </label><input class="principal__cadastro__input" type="email" name="email">
+            <label for="confEmail">Confirme E-mail </label><input class="principal__cadastro__input" type="email" name="confEmail">
+            <label for="senha">Senha </label><input class="principal__cadastro__input" type="password" name="senha">
+            <label for="confSenha">Confirme Senha </label><input class="principal__cadastro__input" type="password" name="confSenha"><br>
+            <input class="principal__cadastro__botao" type="button" value="Login">
+        </form>
     </main>
     <footer class="rodape">
 
